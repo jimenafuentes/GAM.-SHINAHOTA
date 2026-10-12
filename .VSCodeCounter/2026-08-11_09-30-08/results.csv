@@ -1,0 +1,32 @@
+"filename", "language", "JavaScript", "JavaScript JSX", "PostCSS", "XML", "Markdown", "JSON", "Dotenv", "HTML", "comment", "blank", "total"
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\.env", "Dotenv", 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 2
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\README.md", "Markdown", 0, 0, 0, 0, 9, 0, 0, 0, 0, 8, 17
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\eslint.config.js", "JavaScript", 20, 0, 0, 0, 0, 0, 0, 0, 0, 2, 22
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\index.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 14, 0, 1, 15
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\package-lock.json", "JSON", 0, 0, 0, 0, 0, 3300, 0, 0, 0, 1, 3301
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\package.json", "JSON", 0, 0, 0, 0, 0, 35, 0, 0, 0, 1, 36
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\public\favicon.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\public\icons.svg", "XML", 0, 0, 0, 24, 0, 0, 0, 0, 0, 1, 25
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\App.css", "PostCSS", 0, 0, 158, 0, 0, 0, 0, 0, 0, 27, 185
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\App.jsx", "JavaScript JSX", 0, 81, 0, 0, 0, 0, 0, 0, 24, 14, 119
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\assets\react.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\assets\vite.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 2
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\components\Layout.jsx", "JavaScript JSX", 0, 46, 0, 0, 0, 0, 0, 0, 19, 11, 76
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\components\PrivateRoute.jsx", "JavaScript JSX", 0, 19, 0, 0, 0, 0, 0, 0, 15, 7, 41
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\components\Sidebar.jsx", "JavaScript JSX", 0, 110, 0, 0, 0, 0, 0, 0, 26, 14, 150
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\context\AuthContext.jsx", "JavaScript JSX", 0, 55, 0, 0, 0, 0, 0, 0, 35, 12, 102
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\index.css", "PostCSS", 0, 0, 718, 0, 0, 0, 0, 0, 36, 115, 869
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\main.jsx", "JavaScript JSX", 0, 9, 0, 0, 0, 0, 0, 0, 9, 3, 21
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\pages\ActivosPage.jsx", "JavaScript JSX", 0, 273, 0, 0, 0, 0, 0, 0, 1, 16, 290
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\pages\BlockchainPage.jsx", "JavaScript JSX", 0, 466, 0, 0, 0, 0, 0, 0, 27, 26, 519
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\pages\DashboardPage.jsx", "JavaScript JSX", 0, 177, 0, 0, 0, 0, 0, 0, 5, 13, 195
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\pages\IntegridadPage.jsx", "JavaScript JSX", 0, 491, 0, 0, 0, 0, 0, 0, 48, 44, 583
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\pages\LoginPage.jsx", "JavaScript JSX", 0, 356, 0, 0, 0, 0, 0, 0, 16, 30, 402
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\pages\MaterialesPage.jsx", "JavaScript JSX", 0, 247, 0, 0, 0, 0, 0, 0, 1, 15, 263
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\pages\ReportesPage.jsx", "JavaScript JSX", 0, 174, 0, 0, 0, 0, 0, 0, 5, 11, 190
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\pages\SolicitudesPage.jsx", "JavaScript JSX", 0, 327, 0, 0, 0, 0, 0, 0, 3, 21, 351
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\pages\TransaccionesPage.jsx", "JavaScript JSX", 0, 332, 0, 0, 0, 0, 0, 0, 31, 37, 400
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\pages\UsuariosPage.jsx", "JavaScript JSX", 0, 204, 0, 0, 0, 0, 0, 0, 0, 14, 218
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\src\services\api.js", "JavaScript", 94, 0, 0, 0, 0, 0, 0, 0, 35, 20, 149
+"c:\Users\JIMENA\Desktop\sistema weg\frontend\vite.config.js", "JavaScript", 5, 0, 0, 0, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 119, 3367, 876, 27, 9, 3335, 1, 14, 337, 468, 8553

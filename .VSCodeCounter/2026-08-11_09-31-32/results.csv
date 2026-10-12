@@ -1,0 +1,10 @@
+"filename", "language", "JSON", "JavaScript", "comment", "blank", "total"
+"c:\Users\JIMENA\Desktop\sistema weg\blockchain\artifacts\build-info\18676c4a341a4b9c81a7d4d9b46181b1.json", "JSON", 1, 0, 0, 0, 1
+"c:\Users\JIMENA\Desktop\sistema weg\blockchain\artifacts\contracts\GestionActivos.sol\GestionActivos.dbg.json", "JSON", 4, 0, 0, 1, 5
+"c:\Users\JIMENA\Desktop\sistema weg\blockchain\artifacts\contracts\GestionActivos.sol\GestionActivos.json", "JSON", 345, 0, 0, 1, 346
+"c:\Users\JIMENA\Desktop\sistema weg\blockchain\cache\solidity-files-cache.json", "JSON", 40, 0, 0, 1, 41
+"c:\Users\JIMENA\Desktop\sistema weg\blockchain\hardhat.config.js", "JavaScript", 0, 26, 25, 6, 57
+"c:\Users\JIMENA\Desktop\sistema weg\blockchain\package-lock.json", "JSON", 7680, 0, 0, 1, 7681
+"c:\Users\JIMENA\Desktop\sistema weg\blockchain\package.json", "JSON", 28, 0, 0, 1, 29
+"c:\Users\JIMENA\Desktop\sistema weg\blockchain\scripts\deploy.js", "JavaScript", 0, 21, 34, 10, 65
+"Total", "-", 8098, 47, 59, 21, 8225

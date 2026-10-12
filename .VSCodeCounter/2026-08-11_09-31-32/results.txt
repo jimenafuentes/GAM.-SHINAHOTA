@@ -1,0 +1,40 @@
+Date : 2026-08-11 09:31:32
+Directory : c:\Users\JIMENA\Desktop\sistema weg\blockchain
+Total : 8 files,  8145 codes, 59 comments, 21 blanks, all 8225 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          6 |      8,098 |          0 |          5 |      8,103 |
+| JavaScript |          2 |         47 |         59 |         16 |        122 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                          | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                             |          8 |      8,145 |         59 |         21 |      8,225 |
+| . (Files)                                                                                                     |          3 |      7,734 |         25 |          8 |      7,767 |
+| artifacts                                                                                                     |          3 |        350 |          0 |          2 |        352 |
+| artifacts\build-info                                                                                          |          1 |          1 |          0 |          0 |          1 |
+| artifacts\contracts                                                                                           |          2 |        349 |          0 |          2 |        351 |
+| artifacts\contracts\GestionActivos.sol                                                                        |          2 |        349 |          0 |          2 |        351 |
+| cache                                                                                                         |          1 |         40 |          0 |          1 |         41 |
+| scripts                                                                                                       |          1 |         21 |         34 |         10 |         65 |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                      | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\artifacts\build-info\18676c4a341a4b9c81a7d4d9b46181b1.json     | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\artifacts\contracts\GestionActivos.sol\GestionActivos.dbg.json | JSON       |          4 |          0 |          1 |          5 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\artifacts\contracts\GestionActivos.sol\GestionActivos.json     | JSON       |        345 |          0 |          1 |        346 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\cache\solidity-files-cache.json                                | JSON       |         40 |          0 |          1 |         41 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\hardhat.config.js                                              | JavaScript |         26 |         25 |          6 |         57 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\package-lock.json                                              | JSON       |      7,680 |          0 |          1 |      7,681 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\package.json                                                   | JSON       |         28 |          0 |          1 |         29 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\scripts\deploy.js                                              | JavaScript |         21 |         34 |         10 |         65 |
+| Total                                                                                                         |            |      8,145 |         59 |         21 |      8,225 |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

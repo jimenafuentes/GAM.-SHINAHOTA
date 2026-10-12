@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\JIMENA\\Desktop\\sistema weg\\blockchain\\contracts\\GestionActivos.sol": {
+      "lastModificationDate": 1780276674811,
+      "contentHash": "7d0dd8230a08dd767aa31d7faf3c8c68",
+      "sourceName": "contracts/GestionActivos.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "GestionActivos"
+      ]
+    }
+  }
+}

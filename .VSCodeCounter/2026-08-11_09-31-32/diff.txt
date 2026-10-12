@@ -1,0 +1,133 @@
+Date : 2026-08-11 09:31:32
+Directory : c:\Users\JIMENA\Desktop\sistema weg\blockchain
+Total : 73 files,  6094 codes, -1320 comments, -549 blanks, all 4225 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| JSON             |          6 |      8,098 |          0 |          5 |      8,103 |
+| JavaScript       |          2 |         47 |         59 |         16 |        122 |
+| Dotenv           |          1 |         -9 |          0 |         -1 |        -10 |
+| pip requirements |          1 |        -11 |          0 |         -1 |        -12 |
+| Python           |         63 |     -2,031 |     -1,379 |       -568 |     -3,978 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                          | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                             |         73 |      6,094 |     -1,320 |       -549 |      4,225 |
+| . (Files)                                                                                                     |          3 |      7,734 |         25 |          8 |      7,767 |
+| ..                                                                                                            |         65 |     -2,051 |     -1,379 |       -570 |     -4,000 |
+| ..\backend                                                                                                    |         65 |     -2,051 |     -1,379 |       -570 |     -4,000 |
+| ..\backend (Files)                                                                                            |          5 |        -79 |        -38 |        -21 |       -138 |
+| ..\backend\apps                                                                                               |         56 |     -1,827 |     -1,275 |       -504 |     -3,606 |
+| ..\backend\apps (Files)                                                                                       |          1 |          0 |          0 |         -2 |         -2 |
+| ..\backend\apps\activos                                                                                       |          9 |       -291 |       -259 |        -90 |       -640 |
+| ..\backend\apps\activos (Files)                                                                               |          6 |       -194 |       -257 |        -75 |       -526 |
+| ..\backend\apps\activos\migrations                                                                            |          3 |        -97 |         -2 |        -15 |       -114 |
+| ..\backend\apps\blockchain                                                                                    |         10 |       -329 |       -280 |        -82 |       -691 |
+| ..\backend\apps\blockchain (Files)                                                                            |          7 |       -283 |       -278 |        -67 |       -628 |
+| ..\backend\apps\blockchain\migrations                                                                         |          3 |        -46 |         -2 |        -15 |        -63 |
+| ..\backend\apps\materiales                                                                                    |         10 |       -375 |       -245 |       -104 |       -724 |
+| ..\backend\apps\materiales (Files)                                                                            |          6 |       -248 |       -242 |        -82 |       -572 |
+| ..\backend\apps\materiales\migrations                                                                         |          4 |       -127 |         -3 |        -22 |       -152 |
+| ..\backend\apps\reportes                                                                                      |          4 |        -85 |        -64 |        -29 |       -178 |
+| ..\backend\apps\solicitudes                                                                                   |          9 |       -335 |       -191 |        -94 |       -620 |
+| ..\backend\apps\solicitudes (Files)                                                                           |          6 |       -249 |       -189 |        -79 |       -517 |
+| ..\backend\apps\solicitudes\migrations                                                                        |          3 |        -86 |         -2 |        -15 |       -103 |
+| ..\backend\apps\usuarios                                                                                      |         13 |       -412 |       -236 |       -103 |       -751 |
+| ..\backend\apps\usuarios (Files)                                                                              |          8 |       -236 |       -229 |        -79 |       -544 |
+| ..\backend\apps\usuarios\management                                                                           |          3 |       -124 |         -6 |        -16 |       -146 |
+| ..\backend\apps\usuarios\management (Files)                                                                   |          1 |          0 |          0 |         -2 |         -2 |
+| ..\backend\apps\usuarios\management\commands                                                                  |          2 |       -124 |         -6 |        -14 |       -144 |
+| ..\backend\apps\usuarios\migrations                                                                           |          2 |        -52 |         -1 |         -8 |        -61 |
+| ..\backend\config                                                                                             |          4 |       -145 |        -66 |        -45 |       -256 |
+| artifacts                                                                                                     |          3 |        350 |          0 |          2 |        352 |
+| artifacts\build-info                                                                                          |          1 |          1 |          0 |          0 |          1 |
+| artifacts\contracts                                                                                           |          2 |        349 |          0 |          2 |        351 |
+| artifacts\contracts\GestionActivos.sol                                                                        |          2 |        349 |          0 |          2 |        351 |
+| cache                                                                                                         |          1 |         40 |          0 |          1 |         41 |
+| scripts                                                                                                       |          1 |         21 |         34 |         10 |         65 |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                                      | language         | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Users\JIMENA\Desktop\sistema weg\backend\.env                                                              | Dotenv           |         -9 |          0 |         -1 |        -10 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\__init__.py                                                  | Python           |          0 |          0 |         -2 |         -2 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\activos\__init__.py                                          | Python           |          0 |          0 |         -2 |         -2 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\activos\apps.py                                              | Python           |         -5 |          0 |         -3 |         -8 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\activos\migrations\0001_initial.py                           | Python           |        -55 |         -1 |         -7 |        -63 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\activos\migrations\0002_initial.py                           | Python           |        -42 |         -1 |         -7 |        -50 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\activos\migrations\__init__.py                               | Python           |          0 |          0 |         -1 |         -1 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\activos\models.py                                            | Python           |        -86 |        -73 |        -29 |       -188 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\activos\serializers.py                                       | Python           |        -22 |        -52 |        -15 |        -89 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\activos\urls.py                                              | Python           |         -7 |        -29 |         -6 |        -42 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\activos\views.py                                             | Python           |        -74 |       -103 |        -20 |       -197 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\blockchain\__init__.py                                       | Python           |          0 |          0 |         -2 |         -2 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\blockchain\apps.py                                           | Python           |         -5 |          0 |         -3 |         -8 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\blockchain\migrations\0001_initial.py                        | Python           |        -30 |         -1 |         -7 |        -38 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\blockchain\migrations\0002_initial.py                        | Python           |        -16 |         -1 |         -7 |        -24 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\blockchain\migrations\__init__.py                            | Python           |          0 |          0 |         -1 |         -1 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\blockchain\models.py                                         | Python           |        -38 |        -44 |        -19 |       -101 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\blockchain\serializers.py                                    | Python           |         -9 |          0 |         -4 |        -13 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\blockchain\services.py                                       | Python           |       -175 |       -163 |        -22 |       -360 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\blockchain\urls.py                                           | Python           |         -6 |          0 |         -3 |         -9 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\blockchain\views.py                                          | Python           |        -50 |        -71 |        -14 |       -135 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\materiales\__init__.py                                       | Python           |          0 |          0 |         -2 |         -2 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\materiales\apps.py                                           | Python           |         -5 |          0 |         -3 |         -8 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\materiales\migrations\0001_initial.py                        | Python           |        -91 |         -1 |         -7 |        -99 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\materiales\migrations\0002_initial.py                        | Python           |        -15 |         -1 |         -7 |        -23 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\materiales\migrations\0003_initial.py                        | Python           |        -21 |         -1 |         -7 |        -29 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\materiales\migrations\__init__.py                            | Python           |          0 |          0 |         -1 |         -1 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\materiales\models.py                                         | Python           |       -100 |        -84 |        -36 |       -220 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\materiales\serializers.py                                    | Python           |        -29 |        -44 |        -14 |        -87 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\materiales\urls.py                                           | Python           |        -11 |        -15 |         -5 |        -31 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\materiales\views.py                                          | Python           |       -103 |        -99 |        -22 |       -224 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\reportes\__init__.py                                         | Python           |          0 |          0 |         -2 |         -2 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\reportes\apps.py                                             | Python           |         -5 |          0 |         -3 |         -8 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\reportes\urls.py                                             | Python           |         -6 |        -12 |         -4 |        -22 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\reportes\views.py                                            | Python           |        -74 |        -52 |        -20 |       -146 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\solicitudes\__init__.py                                      | Python           |          0 |          0 |         -2 |         -2 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\solicitudes\apps.py                                          | Python           |         -5 |          0 |         -3 |         -8 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\solicitudes\migrations\0001_initial.py                       | Python           |        -49 |         -1 |         -7 |        -57 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\solicitudes\migrations\0002_initial.py                       | Python           |        -37 |         -1 |         -7 |        -45 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\solicitudes\migrations\__init__.py                           | Python           |          0 |          0 |         -1 |         -1 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\solicitudes\models.py                                        | Python           |        -70 |        -46 |        -26 |       -142 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\solicitudes\serializers.py                                   | Python           |        -44 |        -49 |        -16 |       -109 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\solicitudes\urls.py                                          | Python           |         -8 |        -17 |         -5 |        -30 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\solicitudes\views.py                                         | Python           |       -122 |        -77 |        -27 |       -226 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\__init__.py                                         | Python           |          0 |          0 |         -2 |         -2 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\admin.py                                            | Python           |        -26 |          0 |         -5 |        -31 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\apps.py                                             | Python           |         -5 |          0 |         -3 |         -8 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\management\__init__.py                              | Python           |          0 |          0 |         -2 |         -2 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\management\commands\__init__.py                     | Python           |          0 |          0 |         -2 |         -2 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\management\commands\seed_data.py                    | Python           |       -124 |         -6 |        -12 |       -142 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\migrations\0001_initial.py                          | Python           |        -52 |         -1 |         -7 |        -60 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\migrations\__init__.py                              | Python           |          0 |          0 |         -1 |         -1 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\models.py                                           | Python           |        -60 |        -80 |        -26 |       -166 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\permissions.py                                      | Python           |        -10 |        -48 |         -8 |        -66 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\serializers.py                                      | Python           |        -51 |          0 |        -14 |        -65 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\urls.py                                             | Python           |        -11 |          0 |         -3 |        -14 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\apps\usuarios\views.py                                            | Python           |        -73 |       -101 |        -18 |       -192 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\config\__init__.py                                                | Python           |          0 |          0 |         -2 |         -2 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\config\settings.py                                                | Python           |       -111 |        -46 |        -33 |       -190 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\config\urls.py                                                    | Python           |        -30 |        -20 |         -8 |        -58 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\config\wsgi.py                                                    | Python           |         -4 |          0 |         -2 |         -6 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\create_db.py                                                      | Python           |        -20 |        -16 |         -7 |        -43 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\manage.py                                                         | Python           |        -15 |         -3 |         -5 |        -23 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\recreate_db.py                                                    | Python           |        -24 |        -19 |         -7 |        -50 |
+| c:\Users\JIMENA\Desktop\sistema weg\backend\requirements.txt                                                  | pip requirements |        -11 |          0 |         -1 |        -12 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\artifacts\build-info\18676c4a341a4b9c81a7d4d9b46181b1.json     | JSON             |          1 |          0 |          0 |          1 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\artifacts\contracts\GestionActivos.sol\GestionActivos.dbg.json | JSON             |          4 |          0 |          1 |          5 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\artifacts\contracts\GestionActivos.sol\GestionActivos.json     | JSON             |        345 |          0 |          1 |        346 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\cache\solidity-files-cache.json                                | JSON             |         40 |          0 |          1 |         41 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\hardhat.config.js                                              | JavaScript       |         26 |         25 |          6 |         57 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\package-lock.json                                              | JSON             |      7,680 |          0 |          1 |      7,681 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\package.json                                                   | JSON             |         28 |          0 |          1 |         29 |
+| c:\Users\JIMENA\Desktop\sistema weg\blockchain\scripts\deploy.js                                              | JavaScript       |         21 |         34 |         10 |         65 |
+| Total                                                                                                         |                  |      6,094 |     -1,320 |       -549 |      4,225 |
++---------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
