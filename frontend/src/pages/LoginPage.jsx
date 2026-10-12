@@ -172,30 +172,7 @@ export default function LoginPage() {
               Crear Cuenta
             </button>
 
-            {/* Demo accounts */}
-            <div className="lp-demo-section">
-              <div className="lp-demo-line">
-                <span>Cuentas de demostración</span>
-              </div>
-              <div className="lp-demo-grid">
-                {demoAccounts.map(d => {
-                  const Icon = d.icon;
-                  return (
-                    <button
-                      key={d.label}
-                      type="button"
-                      id={`demo-${d.label.toLowerCase().replace(/\s/g, '-')}`}
-                      className="lp-demo-btn"
-                      style={{ '--demo-color': d.color, '--demo-bg': d.bg, '--demo-border': d.border }}
-                      onClick={() => fillDemo(d.email, d.pass)}
-                    >
-                      <Icon size={13} />
-                      {d.label}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
+
           </form>
         ) : (
           /* REGISTER FORM */

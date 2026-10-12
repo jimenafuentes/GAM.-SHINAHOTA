@@ -197,12 +197,7 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* ── STAT CARDS ── */}
-      <div className="dash-stats-grid">
-        {statCards.map(card => (
-          <StatCard key={card.label} {...card} />
-        ))}
-      </div>
+
 
       {/* ── CHARTS ROW ── */}
       <div className="dash-charts-row">
