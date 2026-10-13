@@ -67,7 +67,7 @@ export default function Sidebar() {
           <Building2 size={18} color="white" />
         </div>
         <div>
-          <div className="sb-logo-name">Sistema WEB</div>
+          <div className="sb-logo-name">GAM - Shinahota</div>
           <div className="sb-logo-sub">Alcaldía de Shinahota</div>
         </div>
       </div>

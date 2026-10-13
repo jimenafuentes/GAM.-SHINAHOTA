@@ -237,8 +237,6 @@ export default function LoginPage() {
                 <select className="lp-input" value={registerForm.rol}
                   onChange={e => setRegisterForm({ ...registerForm, rol: e.target.value })}>
                   <option value="SOLICITANTE">Solicitante</option>
-                  <option value="JEFE_ALMACEN">Jefe de Almacén</option>
-                  <option value="AUDITOR">Auditor</option>
                 </select>
               </div>
             </div>
