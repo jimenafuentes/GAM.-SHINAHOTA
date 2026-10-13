@@ -28,7 +28,11 @@ SECRET_KEY = config('SECRET_KEY', default='django-insecure-fallback-key-change-i
 # DEBUG: True en desarrollo, False en producción (se carga desde .env)
 DEBUG = config('DEBUG', default=True, cast=bool)
 # Hosts permitidos para realizar peticiones al servidor (* permite todos en desarrollo)
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='*', cast=lambda v: [h.strip() for h in v.split(',') if h.strip()])
+# Orígenes confiables para CSRF (panel /admin detrás de HTTPS), ej: https://gamshinahota.rusoft.dev
+CSRF_TRUSTED_ORIGINS = config('CSRF_TRUSTED_ORIGINS', default='', cast=lambda v: [o.strip() for o in v.split(',') if o.strip()])
+# Detrás del proxy Nginx: confía en la cabecera que indica si la petición original fue HTTPS
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
 # --- APLICACIONES REGISTRADAS ---
@@ -62,6 +66,7 @@ INSTALLED_APPS = [
 # --- INTERCEPTORES DE PETICIONES (MIDDLEWARES) ---
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',    # Sirve los estáticos (admin, Swagger) en producción
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',         # Debe estar al principio para manejar solicitudes CORS
     'django.middleware.common.CommonMiddleware',
@@ -143,7 +148,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # --- CONFIGURACIÓN CORS (Cross-Origin Resource Sharing) ---
 # Permite al frontend React comunicarse con este backend sin bloqueos del navegador
-CORS_ALLOW_ALL_ORIGINS = True        # Permite TODOS los orígenes (desarrollo)
+CORS_ALLOW_ALL_ORIGINS = config('CORS_ALLOW_ALL_ORIGINS', default=True, cast=bool)  # True en desarrollo; en producción el frontend usa el mismo dominio
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",

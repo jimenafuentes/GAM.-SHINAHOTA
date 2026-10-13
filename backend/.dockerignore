@@ -1,0 +1,21 @@
+# Secretos y datos: nunca dentro de la imagen (las imágenes son públicas)
+.env
+.env.*
+media/
+staticfiles/
+*.sql
+*.sql.gz
+*.dump
+*.backup
+*.bak
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Scripts de desarrollo local
+create_db.py
+recreate_db.py

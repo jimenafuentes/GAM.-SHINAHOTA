@@ -1,0 +1,25 @@
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Respaldos y dumps de la base de datos (contienen datos y contraseñas)
+bd/
+*.sql
+*.sql.gz
+*.dump
+*.backup
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+backend/staticfiles/
+
+# Node
+node_modules/
+dist/
+
+# Hardhat
+blockchain/cache/

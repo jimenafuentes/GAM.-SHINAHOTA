@@ -1,0 +1,80 @@
+# Sistema WEB GAM Shinahota - producción
+# Las imágenes de backend y frontend las construye GitHub Actions
+# (.github/workflows/imagenes.yml); deploy.sh fija TAG al SHA del commit.
+name: gam-shinahota
+
+services:
+  db:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-sistema_weg}
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Falta DB_PASSWORD en .env}
+    volumes:
+      # El montaje de /var/lib/postgresql (no .../data) es el que espera postgres 18
+      - db_data:/var/lib/postgresql
+      # Solo se ejecuta la primera vez, con el volumen vacío: restaura bd/BD_SHINAHOTA.sql
+      - ./bd:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  ganache:
+    image: trufflesuite/ganache:v7.9.2
+    restart: unless-stopped
+    # Mismo mnemónico y chainId que Hardhat en desarrollo: el contrato queda en
+    # 0x5FbDB2315678afecb367f032d93F642f64180aa3. La cadena persiste en el volumen.
+    # Sin puertos publicados: las cuentas están desbloqueadas, solo el backend accede.
+    command:
+      - --server.host=0.0.0.0
+      - --chain.chainId=1337
+      - --wallet.mnemonic=test test test test test test test test test test test junk
+      - --database.dbPath=/data
+    volumes:
+      - ganache_data:/data
+
+  backend:
+    image: ghcr.io/jimenafuentes/gam-shinahota-backend:${TAG:-latest}
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      SECRET_KEY: ${SECRET_KEY:?Falta SECRET_KEY en .env}
+      DEBUG: "False"
+      ALLOWED_HOSTS: ${DOMINIO:-gamshinahota.rusoft.dev},localhost,backend
+      CSRF_TRUSTED_ORIGINS: https://${DOMINIO:-gamshinahota.rusoft.dev}
+      CORS_ALLOW_ALL_ORIGINS: "False"
+      DB_NAME: ${DB_NAME:-sistema_weg}
+      DB_USER: ${DB_USER:-postgres}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_HOST: db
+      DB_PORT: "5432"
+      GANACHE_URL: http://ganache:8545
+      CONTRACT_ADDRESS: ${CONTRACT_ADDRESS:-0x5FbDB2315678afecb367f032d93F642f64180aa3}
+      GUNICORN_WORKERS: ${GUNICORN_WORKERS:-3}
+    volumes:
+      - media:/app/media
+    depends_on:
+      db:
+        condition: service_healthy
+      ganache:
+        condition: service_started
+
+  frontend:
+    image: ghcr.io/jimenafuentes/gam-shinahota-frontend:${TAG:-latest}
+    build: ./frontend
+    restart: unless-stopped
+    ports:
+      # Solo local: el Nginx del VPS publica el dominio con HTTPS
+      - "127.0.0.1:${PUERTO_WEB:-8095}:80"
+    volumes:
+      - media:/media:ro
+    depends_on:
+      - backend
+
+volumes:
+  db_data:
+  ganache_data:
+  media:
